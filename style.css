@@ -1,0 +1,87 @@
+.sidebar-btn {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: left;
+  color: #c4b5fd;
+  border-radius: 0.375rem;
+  transition: background 0.2s, color 0.2s;
+}
+.sidebar-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.payment-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+.payment-btn:hover {
+  transform: scale(1.05);
+}
+
+/* 기본 레이아웃 반응형 */
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .w-64 {
+    width: 100% !important;
+  }
+
+  .h-screen {
+    height: auto;
+  }
+
+  .ml-64 {
+    margin-left: 0 !important;
+  }
+
+  .text-4xl {
+    font-size: 1.5rem;
+  }
+
+  .text-xl {
+    font-size: 1.125rem;
+  }
+
+  .px-8 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .p-8 {
+    padding: 1rem;
+  }
+
+  .gap-4 {
+    gap: 1rem;
+  }
+
+  .sidebar-btn {
+    text-align: center;
+  }
+
+  #yt-player {
+    display: none !important;
+  }
+
+  .text-xs {
+    font-size: 0.75rem;
+  }
+
+  .text-sm {
+    font-size: 0.875rem;
+  }
+
+  .mt-8 {
+    margin-top: 2rem;
+  }
+
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+}
