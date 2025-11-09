@@ -12,14 +12,14 @@ client.on('ready', () => {
         {
             name: '24H Online',
             url: 'https://twitch.tv/5xn2e',
-            large_image: 'https://i.imgur.com/GeBUjlw.jpeg',
-            large_text: '플로버 ♡'
+            large_image: 'fromis_9',
+            large_text: "Dev : 5x.n2e_dev"
         },
         {
             name: '모든 문의는 디엠으로',
             url: 'https://www.twitch.tv/5xn2e',
-            large_image: 'https://i.imgur.com/GeBUjlw.jpeg',
-            large_text: '플로버 ♡'
+            large_image: 'fromis_9',
+            large_text: "Dev : 5x.n2e_dev"
         }
     ];
 
@@ -31,7 +31,7 @@ client.on('ready', () => {
         client.user.setPresence({
             activities: [{
                 name: status.name,
-                type: ActivityType.Streaming,
+                type: 1,
                 url: status.url,
                 assets: {
                     large_image: status.large_image,
